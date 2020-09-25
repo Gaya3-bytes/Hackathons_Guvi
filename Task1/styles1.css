@@ -1,0 +1,35 @@
+body{
+    background-color: burlywood;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+}
+.milkyWay{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+
+.mdiv{
+    margin: 120px;
+}
+
+.world{
+    border-radius: 30%;
+    height: 30px;
+    width: 40px;
+    background-color: rgb(211, 187, 55);
+    margin: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.star{
+    margin: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+
+body{
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+.glower {
+    font-size: 7vw;
+    color: rgb(247, 243, 28);
+    background-color: transparent;
+    text-align: center;
+    border: transparent;
+    -webkit-animation: glower 1s ease-in-out infinite alternate;
+    -moz-animation: glower 1s ease-in-out infinite alternate;
+    animation: glower 1s ease-in-out infinite alternate;
+  }
+  
+@keyframes glower {
+    from {
+      text-shadow: 0 0 10px rgb(233, 218, 132), 0 0 20px goldenrod, 0 0 30px  goldenrod, 0 0 40px goldenrod, 0 0 50px goldenrod, 0 0 60px goldenrod, 0 0 70px goldenrod;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(233, 219, 132), 0 0 30px gold, 0 0 40px gold, 0 0 50px gold, 0 0 60px gold, 0 0 70px gold, 0 0 80px gold;
+    }
+  }
+
+  .cepheid{
+      margin: auto 0;
+      display: block;
+  }
+
